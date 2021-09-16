@@ -240,3 +240,30 @@ ul li {
 }
 
 .hidden {display:none; }
+
+footer {
+    text-align: center;
+    font-family: "OpenSans", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    @include responsive-XS{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    @include responsive-SM{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    @include responsive-MD{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @include responsive-LG{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @include responsive-XL{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
