@@ -1,8 +1,5 @@
-{# {% if is_granted('IS_AUTHENTICATED_FULLY') %}
-<a href="{{ path('app_logout') }}">Déconnexion</a>
-{% else %}
-<a href="{{ path('app_login') }}">Connexion</a>
-{% endif %} #}
-<footer>
-    <a href="#">Mentions légales</a>
-</footer>
+{% if not is_granted('IS_AUTHENTICATED_FULLY') %}
+    <footer>
+        <a href="{{ path('legal') }}">Mentions légales</a>
+    </footer>
+{% endif %}

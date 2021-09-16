@@ -267,3 +267,39 @@ footer {
         padding-bottom: 60px;
     }
 }
+
+.text-container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    @include responsive-XS{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    @include responsive-SM{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 540px;
+    }
+    @include responsive-MD{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 720px;
+    }
+    @include responsive-LG{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 960px;
+    }
+    @include responsive-XL{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 1140px;
+    }
+}
+        
+.text-part {
+    margin-bottom: 20px;
+}
