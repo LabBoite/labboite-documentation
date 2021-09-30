@@ -1136,6 +1136,7 @@ a.card-link img:hover {
   background-color: #FFF; }
 
 .box-p {
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
   width: 100%;
   box-sizing: border-box; }
   @media screen and (max-width: 574.98px) {
@@ -1693,6 +1694,28 @@ li.toc-h3 {
   color: #FFF;
   padding: 0.125rem 0.375rem;
   border-radius: 0.1875rem; }
+
+.notice-label-warning {
+  background-color: #FBE9E8;
+  padding: 15px;
+  font-weight: 600;
+  color: #D82A21;
+  border-radius: 2px; }
+  @media screen and (max-width: 574.98px) {
+    .notice-label-warning {
+      margin-bottom: 0.70312rem !important; } }
+  @media screen and (min-width: 575px) and (max-width: 767.98px) {
+    .notice-label-warning {
+      margin-bottom: 0.70312rem !important; } }
+  @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .notice-label-warning {
+      margin-bottom: 0.70312rem !important; } }
+  @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .notice-label-warning {
+      margin-bottom: 0.75rem !important; } }
+  @media screen and (min-width: 1200px) {
+    .notice-label-warning {
+      margin-bottom: 0.75rem !important; } }
 
 /*-- PANEL --*/
 .panel-container {

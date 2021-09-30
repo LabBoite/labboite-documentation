@@ -937,6 +937,7 @@ a.card-link img:hover {
 }
 
 .box-p {
+    font-family: $font-family;
     width: 100%;
     box-sizing: border-box;
     @include responsive-XS{
@@ -1515,6 +1516,30 @@ li.toc-h3 {
     padding: 0.125rem 0.375rem;
     border-radius: 0.1875rem;
 }
+
+.notice-label-warning {
+    background-color: $red-1;
+    padding: 15px;
+    font-weight: 600;
+    color: $red-2;
+    border-radius: 2px;
+    @include responsive-XS{
+        margin-bottom: $p-XS * 0.75 !important;
+    }
+    @include responsive-SM{
+        margin-bottom: $p-SM * 0.75 !important;
+    }
+    @include responsive-MD{
+        margin-bottom: $p-MD * 0.75 !important;
+    }
+    @include responsive-LG{
+        margin-bottom: $p-LG * 0.75!important;
+    }
+    @include responsive-XL{
+        margin-bottom: $p-XL * 0.75 !important;
+    }
+}
+
 
 /*-- PANEL --*/
 

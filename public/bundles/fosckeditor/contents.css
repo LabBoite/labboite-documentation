@@ -101,6 +101,28 @@ pre
 	tab-size: 4;
 }
 
+.notice-ui-input {
+    background-color: #EEF8F6;
+    color: #58BAAB;
+    padding: 0.125rem 0.375rem;
+    border-radius: 2px;
+}
+
+.notice-ui-button {
+    background-color: #58BAAB;
+    color: #FFFFFF;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.1875rem;
+}
+
+.notice-label-warning {
+    background-color: #FBE9E8;
+    padding: 15px;
+    font-weight: 600;
+    color: #D82A21;
+    border-radius: 2px;
+}
+
 .marker
 {
 	background-color: Yellow;

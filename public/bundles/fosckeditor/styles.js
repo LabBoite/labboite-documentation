@@ -32,6 +32,7 @@ CKEDITOR.stylesSet.add( 'default', [
 	{ name: 'Preformatted Text',element: 'pre' },
 	{ name: 'Address',			element: 'address' },
 	*/
+	{ name: 'Attention', element: 'div', attributes: { 'class': 'notice-label-warning' } },
 
 	{ name: 'Italic Title',		element: 'h2', styles: { 'font-style': 'italic' } },
 	{ name: 'Subtitle',			element: 'h3', styles: { 'color': '#aaa', 'font-style': 'italic' } },
@@ -58,6 +59,9 @@ CKEDITOR.stylesSet.add( 'default', [
 	{ name: 'Subscript',		element: 'sub' },
 	{ name: 'Superscript',		element: 'sup' },
 	*/
+
+	{ name: 'Bouton', element: 'span', attributes: { 'class': 'notice-ui-button' } },
+	{ name: 'Menu', element: 'span', attributes: { 'class': 'notice-ui-input' } },
 
 	{ name: 'Marker',			element: 'span', attributes: { 'class': 'marker' } },
 
