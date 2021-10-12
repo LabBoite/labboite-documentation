@@ -34,6 +34,8 @@ CKEDITOR.stylesSet.add( 'default', [
 	*/
 	{ name: 'Attention', element: 'div', attributes: { 'class': 'notice-label-warning' } },
 
+	/*
+	
 	{ name: 'Italic Title',		element: 'h2', styles: { 'font-style': 'italic' } },
 	{ name: 'Subtitle',			element: 'h3', styles: { 'color': '#aaa', 'font-style': 'italic' } },
 	{
@@ -45,6 +47,8 @@ CKEDITOR.stylesSet.add( 'default', [
 			border: '1px solid #ccc'
 		}
 	},
+
+	*/
 
 	/* Inline styles */
 
@@ -63,6 +67,7 @@ CKEDITOR.stylesSet.add( 'default', [
 	{ name: 'Bouton', element: 'span', attributes: { 'class': 'notice-ui-button' } },
 	{ name: 'Menu', element: 'span', attributes: { 'class': 'notice-ui-input' } },
 
+	/*
 	{ name: 'Marker',			element: 'span', attributes: { 'class': 'marker' } },
 
 	{ name: 'Big',				element: 'big' },
@@ -82,6 +87,8 @@ CKEDITOR.stylesSet.add( 'default', [
 
 	{ name: 'Language: RTL',	element: 'span', attributes: { 'dir': 'rtl' } },
 	{ name: 'Language: LTR',	element: 'span', attributes: { 'dir': 'ltr' } },
+
+	*/
 
 	/* Object styles */
 

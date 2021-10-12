@@ -51,7 +51,7 @@
                                     
                                         <!-- IMG placeholder for demo purpose -->
                                         {% if form.vars.value.information is not null and form.vars.value.information.pictureName is not null %}
-                                            <img src="{{ asset('upload/informations/' ~ form.vars.value.pictureName) }}" alt="Thumb" id="imgPreview">
+                                            <img src="{{ asset('upload/informations/' ~ form.vars.value.information.pictureName) }}" alt="Thumb" id="imgPreview">
                                         {% else %}
                                             <img src="{{ asset('img/default.png')}}" alt="Thumb" id="imgPreview">
                                         {% endif %}
